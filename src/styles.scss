@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap");
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+nav {
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+
+    li {
+      list-style: none;
+    }
+  }
+}
