@@ -1,7 +1,11 @@
-<!-- Toolbar -->
-
-<span>{{ title }} app is running!</span>
-
-<!-- Links -->
+<nav>
+  <ul>
+    <li><a routerLink="/latest" routerLinkActive="navCurrent">Home</a></li>
+    <li>
+      <a routerLink="/blog" routerLinkActive="navCurrent">All the Stuff</a>
+    </li>
+    <li><a routerLink="/about" routerLinkActive="navCurrent">About?</a></li>
+  </ul>
+</nav>
 
 <router-outlet></router-outlet>
